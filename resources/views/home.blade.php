@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Laravel Home</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
@@ -64,6 +64,7 @@
         </style>
     </head>
     <body>
-      Hello Laravel
+      <div> Nome: {{ $name }}</div>
+      <div> Cognome: {{ $lastname }}</div>
     </body>
 </html>
