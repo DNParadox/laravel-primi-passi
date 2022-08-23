@@ -64,9 +64,9 @@
         </style>
     </head>
     <body>
-        <a href="{{ route('about') }}">Vai ad about</a>
-        <div> Nome: {{ $name }}</div>
-        <div> Cognome: {{ $lastname }}</div>
-        <div> testo: {{ $text }}</div>
+        <a href="{{ route('home') }}">Vai alla home</a>
+      <div> Testo: {{ $text1 }}</div>
+      <div> Testo: {{ $text2 }}</div>
+      <div> Testo: {{ $text3 }}</div>
     </body>
 </html>
